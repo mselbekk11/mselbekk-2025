@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased min-h-screen max-w-screen p-6`}
       >
         {children}
-        {/* <div className="absolute bottom-0 right-0 rotate-90 origin-bottom-right">Morgan Selbekk</div> */}
+        <div className="fixed bottom-35 right-4 -rotate-90 origin-bottom-right">morgan selbekk</div>
       </body>
     </html>
   );
