@@ -27,12 +27,12 @@ const links = [
 
 export default function Links() {
   return (
-    <div className='flex flex-col gap-4'>
-      <h2>Links</h2>
+    <div className='flex flex-col gap-4 font-inter font-medium'>
+      <h2 className='text-muted underline'>Links</h2>
       {links.map((item) => (
-        <div key={item.id} className='flex'>
+        <div key={item.id} className='flex gap-2'>
           <p>{item.title}</p>
-          <p>{item.address}</p>
+          <p className='text-muted underline cursor-pointer'>{item.address}</p>
         </div>
       ))}
     </div>

@@ -27,12 +27,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className='flex flex-col gap-4'>
-      <h2>Selected Projects</h2>
+    <div className='flex flex-col gap-4 font-inter font-medium'>
+      <h2 className='text-muted underline'>Selected Projects</h2>
       {projects.map((item) => (
         <div key={item.id} className='flex justify-between'>
           <p>{item.title}</p>
-          <p>{item.subtitle}</p>
+          <p className='text-muted'>{item.subtitle}</p>
         </div>
       ))}
     </div>

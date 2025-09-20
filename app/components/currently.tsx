@@ -8,12 +8,12 @@ const currently = [
 
 export default function Currently() {
   return (
-    <div className='flex flex-col gap-4'>
-      <h2>Currently</h2>
+    <div className='flex flex-col gap-4 font-inter font-medium'>
+      <h2 className='text-muted underline'>Currently</h2>
       {currently.map((item) => (
-        <div key={item.id} className='flex justify-between'>
+        <div key={item.id} className='flex justify-between border-y border-[#222222] py-4'>
           <p>{item.title}</p>
-          <p>{item.subtitle}</p>
+          <p className='text-muted'>{item.subtitle}</p>
         </div>
       ))}
     </div>
