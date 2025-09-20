@@ -27,14 +27,16 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className='flex flex-col gap-4 font-inter font-medium'>
+    <div className='flex flex-col gap-4 font-inter text-[15px]'>
       <h2 className='text-muted underline'>Selected Projects</h2>
-      {projects.map((item) => (
-        <div key={item.id} className='flex justify-between'>
-          <p>{item.title}</p>
-          <p className='text-muted'>{item.subtitle}</p>
-        </div>
-      ))}
+      <div className='divide-y divide-[#222222] border-y border-[#222222]'>
+        {projects.map((item) => (
+          <div key={item.id} className='flex justify-between py-4'>
+            <p className='font-semibold'>{item.title}</p>
+            <p className='text-muted'>{item.subtitle}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

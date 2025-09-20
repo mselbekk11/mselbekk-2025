@@ -1,24 +1,24 @@
 const links = [
   {
-    title: 'Email',
+    title: 'Email:',
     address: 'mselbekk@gmail.com',
     id: 'email',
     link: '',
   },
   {
-    title: 'X',
+    title: 'X:',
     address: '@mselbekk1',
     id: 'x',
     link: '',
   },
   {
-    title: 'Github',
+    title: 'Github:',
     address: '@mselbekk11',
     id: 'github',
     link: '',
   },
   {
-    title: 'LinkedIn',
+    title: 'LinkedIn:',
     address: 'in/morgan-selbekk',
     id: 'linkedin',
     link: '',
@@ -27,7 +27,7 @@ const links = [
 
 export default function Links() {
   return (
-    <div className='flex flex-col gap-4 font-inter font-medium'>
+    <div className='flex flex-col gap-4 font-inter text-[15px]'>
       <h2 className='text-muted underline'>Links</h2>
       {links.map((item) => (
         <div key={item.id} className='flex gap-2'>
