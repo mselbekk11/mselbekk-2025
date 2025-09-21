@@ -18,7 +18,7 @@ export default function Intro() {
         experience across Design, Development & Project Management. I currently
         run <span className='text-muted cursor-pointer'>Selbekk Studio</span>,
         where i design and build custom full stack applications for my clients.
-        I also like to build and launch my own AI products.{' '}
+        I also like to build my own AI products.{' '}
       </p>
     </div>
   );
