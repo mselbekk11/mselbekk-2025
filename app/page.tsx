@@ -5,7 +5,7 @@ import Projects from './components/projects';
 
 export default function Home() {
   return (
-    <main className='flex flex-col gap-16 max-w-3xl'>
+    <main className='flex flex-col gap-16 max-w-2xl '>
       <Intro />
       <Currently />
       <Projects />
