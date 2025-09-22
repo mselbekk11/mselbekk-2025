@@ -1,27 +1,29 @@
+import Link from 'next/link';
+
 const links = [
   {
     title: 'Email:',
     address: 'mselbekk@gmail.com',
     id: 'email',
-    link: '',
+    link: 'mailto:mselbekk@gmail.com',
   },
   {
     title: 'X:',
     address: '@mselbekk1',
     id: 'x',
-    link: '',
+    link: 'https://x.com/mselbekk1',
   },
   {
     title: 'Github:',
     address: '@mselbekk11',
     id: 'github',
-    link: '',
+    link: 'https://github.com/mselbekk11',
   },
   {
     title: 'LinkedIn:',
     address: 'in/morgan-selbekk',
     id: 'linkedin',
-    link: '',
+    link: 'https://www.linkedin.com/in/morgan-selbekk/',
   },
 ];
 
@@ -32,7 +34,11 @@ export default function Links() {
       {links.map((item) => (
         <div key={item.id} className='flex gap-2'>
           <p>{item.title}</p>
-          <p className='text-muted underline cursor-pointer'>{item.address}</p>
+          <Link href={item.link} target='_blank'>
+            <p className='text-muted underline cursor-pointer'>
+              {item.address}
+            </p>
+          </Link>
         </div>
       ))}
     </div>
