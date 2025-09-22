@@ -1,10 +1,6 @@
+import Link from 'next/link';
+
 const projects = [
-  {
-    title: 'LLM DEPT.',
-    subtitle: 'coming soon',
-    id: 'llm-dept',
-    link: '',
-  },
   {
     title: 'Roam International',
     subtitle: 'Luxury Travel Application',
@@ -12,16 +8,23 @@ const projects = [
     link: 'https://roaminternational.com',
   },
   {
+    title: 'Trizzy.ai',
+    subtitle: 'AI Application',
+    id: 'trizzy',
+    link: 'https://www.trizzy.ai/',
+  },
+  {
     title: 'Growth',
     subtitle: 'Personal Training Software',
     id: 'growth',
     link: '',
   },
+
   {
-    title: 'Trizzy.ai',
-    subtitle: 'AI Application',
-    id: 'trizzy',
-    link: 'https://www.trizzy.ai/',
+    title: 'LLM DEPT.',
+    subtitle: 'Coming Soon',
+    id: 'llm-dept',
+    link: '',
   },
 ];
 
@@ -31,10 +34,17 @@ export default function Projects() {
       <h2 className='text-muted underline'>Selected Projects</h2>
       <div className='divide-y divide-[#222222] border-y border-[#222222]'>
         {projects.map((item) => (
-          <div key={item.id} className='flex justify-between py-4'>
+          <Link
+            href={item.link}
+            target='_blank'
+            key={item.id}
+            className='flex justify-between py-4 group'
+          >
             <p className='font-semibold'>{item.title}</p>
-            <p className='text-muted'>{item.subtitle}</p>
-          </div>
+            <p className='text-muted group-hover:text-foreground transition-all duration-300'>
+              {item.subtitle}
+            </p>
+          </Link>
         ))}
       </div>
     </div>
