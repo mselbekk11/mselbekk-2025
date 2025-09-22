@@ -33,7 +33,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased min-h-screen max-w-screen p-6`}
       >
         {children}
-        <div className="hidden md:block fixed bottom-93 right-4 -rotate-90 origin-bottom-right text-5xl text-muted opacity-7">Morgan Selbekk</div>
+        <div className='hidden md:block fixed bottom-93 right-4 -rotate-90 origin-bottom-right text-5xl text-muted opacity-20'>
+          Morgan Selbekk
+        </div>
       </body>
     </html>
   );

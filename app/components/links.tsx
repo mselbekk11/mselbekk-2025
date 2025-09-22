@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { motion } from 'motion/react';
 
 const links = [
   {
@@ -29,18 +32,28 @@ const links = [
 
 export default function Links() {
   return (
-    <div className='flex flex-col gap-4 font-inter text-[15px]'>
-      <h2 className='text-muted underline'>Links</h2>
-      {links.map((item) => (
-        <div key={item.id} className='flex gap-2'>
-          <p>{item.title}</p>
-          <Link href={item.link} target='_blank'>
-            <p className='text-muted underline cursor-pointer'>
-              {item.address}
-            </p>
-          </Link>
-        </div>
-      ))}
-    </div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.6,
+        ease: 'easeIn',
+      }}
+    >
+      <div className='flex flex-col gap-4 font-inter text-[15px]'>
+        <h2 className='text-muted underline'>Links</h2>
+        {links.map((item) => (
+          <div key={item.id} className='flex gap-2'>
+            <p>{item.title}</p>
+            <Link href={item.link} target='_blank'>
+              <p className='text-muted underline cursor-pointer'>
+                {item.address}
+              </p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </motion.div>
   );
 }
