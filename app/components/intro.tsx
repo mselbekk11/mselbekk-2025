@@ -28,8 +28,10 @@ export default function Intro() {
           I&apos;m a Designer & Developer living in San Fransisco. I have 10
           years agency experience across Design, Development & Project
           Management. I currently run{' '}
-          <span className='text-muted cursor-pointer'>Selbekk Studio</span> ,
-          where i design and build custom full stack applications. I also like
+          <span className='text-muted cursor-pointer hover:underline'>
+            Selbekk Studio
+          </span>{' '}
+          , where i design and build custom full stack applications. I also like
           to build my own AI products.{' '}
         </p>
       </div>
