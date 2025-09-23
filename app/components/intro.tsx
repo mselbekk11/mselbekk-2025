@@ -13,7 +13,7 @@ export default function Intro() {
         ease: 'easeIn',
       }}
     >
-      <div className='flex flex-col gap-4 text-[15px]'>
+      <div className='flex flex-col gap-4'>
         <Image
           src='/profile-pic.png'
           alt='Morgan Selbekk Profile Picture'
@@ -24,7 +24,7 @@ export default function Intro() {
           Morgan Selbekk{' '}
           {/* <span className='text-muted'>- Designer &amp; Developer</span> */}
         </h1>
-        <p className='font-stix-two-text text-[17px]'>
+        <p className='font-stix-two-text text-sm md:text-[17px]'>
           I&apos;m a Designer & Developer living in San Fransisco. I have 10
           years agency experience across Design, Development & Project
           Management. I currently run{' '}

@@ -23,7 +23,7 @@ export default function Currently() {
         ease: 'easeIn',
       }}
     >
-      <div className='flex flex-col gap-4 font-stix-two-text text-[17px]'>
+      <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[17px]'>
         <h2 className='text-muted underline'>Currently</h2>
         {currently.map((item) => (
           <Link

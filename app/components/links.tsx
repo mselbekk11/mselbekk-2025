@@ -41,7 +41,7 @@ export default function Links() {
         ease: 'easeIn',
       }}
     >
-      <div className='flex flex-col gap-4 font-stix-two-text text-[17px]'>
+      <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[17px]'>
         <h2 className='text-muted underline'>Links</h2>
         {links.map((item) => (
           <div key={item.id} className='flex gap-2'>

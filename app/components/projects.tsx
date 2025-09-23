@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 const projects = [
   {
-    title: 'Roam International',
+    title: 'Roam',
     subtitle: 'Luxury Travel Application',
     id: 'roam',
     link: 'https://roaminternational.com',
@@ -42,7 +42,7 @@ export default function Projects() {
         ease: 'easeIn',
       }}
     >
-      <div className='flex flex-col gap-4 font-stix-two-text text-[17px]'>
+      <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[17px]'>
         <h2 className='text-muted underline'>Selected Projects</h2>
         <div className='divide-y divide-[#222222] border-y border-[#222222]'>
           {projects.map((item) => (

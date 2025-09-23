@@ -96,7 +96,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${stixTwoText.variable} antialiased min-h-screen max-w-screen p-6`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${stixTwoText.variable} antialiased min-h-screen max-w-screen p-4 md:p-6`}
       >
         {children}
         <div className='hidden md:block fixed bottom-88 right-4 -rotate-90 origin-bottom-right text-5xl text-muted opacity-20 font-stix-two-text'>
