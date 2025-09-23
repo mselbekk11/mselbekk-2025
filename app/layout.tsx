@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: 'Morgan Selbekk',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://www.mselbekk.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Morgan Selbekk',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     description:
       'Designer & Developer living in San Fransisco. Currently running Selbekk Studio.',
     creator: '@mselbekk1',
-    images: ['/twitter-image.png'],
+    images: ['https://www.mselbekk.com/og-image.png'],
   },
 
   robots: {
