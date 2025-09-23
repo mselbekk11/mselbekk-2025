@@ -47,7 +47,7 @@ export default function Links() {
           <div key={item.id} className='flex gap-2'>
             <p>{item.title}</p>
             <Link href={item.link} target='_blank'>
-              <p className='text-muted underline cursor-pointer'>
+              <p className='text-muted hover:underline cursor-pointer'>
                 {item.address}
               </p>
             </Link>

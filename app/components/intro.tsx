@@ -17,10 +17,10 @@ export default function Intro() {
         <Image
           src='/profile-pic.png'
           alt='Morgan Selbekk Profile Picture'
-          width={125}
-          height={125}
+          width={100}
+          height={100}
         />
-        <h1 className='font-medium text-[25px] font-stix-two-text'>
+        <h1 className='font-stix-two-text text-xl md:text-2xl font-medium'>
           Morgan Selbekk{' '}
           {/* <span className='text-muted'>- Designer &amp; Developer</span> */}
         </h1>
@@ -28,7 +28,7 @@ export default function Intro() {
           I&apos;m a Designer & Developer living in San Fransisco. I have 10
           years agency experience across Design, Development & Project
           Management. I currently run{' '}
-          <span className='text-muted cursor-pointer'>Selbekk Studio</span>,
+          <span className='text-muted cursor-pointer'>Selbekk Studio</span> ,
           where i design and build custom full stack applications. I also like
           to build my own AI products.{' '}
         </p>
