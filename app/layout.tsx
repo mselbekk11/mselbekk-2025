@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Inter, STIX_Two_Text } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -106,6 +107,7 @@ export default function RootLayout({
           Morgan Selbekk
         </div> */}
       </body>
+      <Script src='https://scripts.simpleanalyticscdn.com/latest.js' />
     </html>
   );
 }
