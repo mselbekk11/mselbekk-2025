@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: 'Growth',
-    subtitle: 'Personal Training Software',
+    subtitle: 'Coming Soon',
     id: 'growth',
     link: '',
   },
