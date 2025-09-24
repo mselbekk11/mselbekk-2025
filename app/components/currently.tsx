@@ -32,7 +32,7 @@ export default function Currently() {
             key={item.id}
             className='flex justify-between border-y border-[#222222] py-4 group'
           >
-            <p className='font-medium'>{item.title}</p>
+            <p className=''>{item.title}</p>
             <p className='text-muted group-hover:text-foreground transition-all duration-300'>
               {item.subtitle}
             </p>

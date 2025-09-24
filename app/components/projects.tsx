@@ -52,7 +52,7 @@ export default function Projects() {
               key={item.id}
               className='flex justify-between py-4 group'
             >
-              <p className='font-medium'>{item.title}</p>
+              <p className=''>{item.title}</p>
               <p className='text-muted group-hover:text-foreground transition-all duration-300'>
                 {item.subtitle}
               </p>
