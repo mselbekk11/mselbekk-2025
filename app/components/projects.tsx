@@ -44,7 +44,7 @@ export default function Projects() {
     >
       <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[17px]'>
         <h2 className='text-muted underline'>Selected Projects</h2>
-        <div className='divide-y divide-[#222222] border-y border-[#222222]'>
+        <div className=''>
           {projects.map((item) => (
             <Link
               href={item.link}

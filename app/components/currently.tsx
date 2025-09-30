@@ -30,7 +30,7 @@ export default function Currently() {
             href={item.link}
             target='_blank'
             key={item.id}
-            className='flex justify-between border-y border-[#222222] py-4 group'
+            className='flex justify-between py-4 group'
           >
             <p className=''>{item.title}</p>
             <p className='text-muted group-hover:text-foreground transition-all duration-300'>
