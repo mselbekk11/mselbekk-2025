@@ -21,7 +21,7 @@ export default function Intro() {
           height={100}
         />
         <h1 className='font-stix-two-text text-xl md:text-2xl font-medium'>
-          Morgan CC Selbekk{' '}
+          Morgan Selbekk{' '}
           {/* <span className='text-muted'>- Designer &amp; Developer</span> */}
         </h1>
         <p className='font-stix-two-text text-sm md:text-[17px]'>
