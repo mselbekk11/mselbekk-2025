@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'motion/react';
+import Link from 'next/link';
 
 export default function Intro() {
   return (
@@ -29,7 +30,9 @@ export default function Intro() {
           years agency experience across Design, Development & Project
           Management. I currently run{' '}
           <span className='text-muted cursor-pointer hover:underline'>
-            Selbekk Studio
+            <Link href='https://www.selbekk.studio/' target='_blank'>
+              Selbekk Studio
+            </Link>
           </span>{' '}
           , where i design and build custom full stack applications. I also like
           to build my own AI products.{' '}
