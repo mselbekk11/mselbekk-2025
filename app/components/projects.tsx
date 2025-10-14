@@ -17,6 +17,12 @@ const projects = [
     link: 'https://www.trizzy.ai/',
   },
   {
+    title: 'PicAI',
+    subtitle: 'AI Application',
+    id: 'picai',
+    link: 'https://www.picai.so/',
+  },
+  {
     title: 'Growth',
     subtitle: 'Coming Soon',
     id: 'growth',
