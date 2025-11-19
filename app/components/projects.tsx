@@ -28,13 +28,6 @@ const projects = [
     id: 'growth',
     link: '',
   },
-
-  {
-    title: 'LLM DEPT.',
-    subtitle: 'Coming Soon',
-    id: 'llm-dept',
-    link: '',
-  },
 ];
 
 export default function Projects() {
