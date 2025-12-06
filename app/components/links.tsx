@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 const links = [
   {
-    title: 'Email:',
+    title: 'Email::',
     address: 'mselbekk11@gmail.com',
     id: 'email',
     link: 'mailto:mselbekk11@gmail.com',
