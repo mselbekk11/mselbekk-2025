@@ -35,7 +35,7 @@ export default function Intro() {
             </Link>
           </span>{' '}
           , where i design and build custom full stack applications. I also like
-          to build my own AI products.{' '}
+          to build my own AI products{' '}
         </p>
       </div>
     </motion.div>
