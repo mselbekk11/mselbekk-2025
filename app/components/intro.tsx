@@ -31,7 +31,7 @@ export default function Intro() {
           Management. I currently run{' '}
           <span className='text-muted cursor-pointer hover:underline'>
             <Link href='https://www.selbekk.studio/' target='_blank'>
-              Selbekk Studio
+              Selbekk Labs
             </Link>
           </span>{' '}
           , where i design and build custom full stack applications. I also like

@@ -5,8 +5,8 @@ import { motion } from 'motion/react';
 
 const currently = [
   {
-    title: 'Selbekk Studio',
-    subtitle: 'Software Angency',
+    title: 'Selbekk Labs',
+    subtitle: 'Software Agency',
     id: 'selbekk-studio',
     link: 'https://selbekk.studio',
   },
