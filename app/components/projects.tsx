@@ -41,7 +41,7 @@ export default function Projects() {
         ease: 'easeIn',
       }}
     >
-      <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[17px]'>
+      <div className='flex flex-col gap-4 font-stix-two-text text-sm md:text-[15px]'>
         <h2 className='text-muted underline'>Selected Projects</h2>
         <div className=''>
           {projects.map((item) => (
@@ -49,7 +49,7 @@ export default function Projects() {
               href={item.link}
               target='_blank'
               key={item.id}
-              className='flex justify-between py-4 group'
+              className='flex justify-between py-2 group'
             >
               <p className=''>{item.title}</p>
               <p className='text-muted group-hover:text-foreground transition-all duration-300'>

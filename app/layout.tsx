@@ -97,15 +97,17 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${stixTwoText.variable} antialiased min-h-screen max-w-screen p-4 md:p-6`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${stixTwoText.variable} antialiased min-h-screen max-w-screen p-4 md:p-6 flex flex-col`}
       >
-        {children}
+        <div className=''>{children}</div>
+        {/* Desktop: fixed rotated text */}
         <div className='hidden md:block fixed bottom-88 right-4 -rotate-90 origin-bottom-right text-5xl text-muted opacity-20 font-stix-two-text'>
           Morgan Selbekk
         </div>
-        {/* <div className='hidden md:block fixed bottom-180 right-4 -rotate-90 origin-bottom-right text-8xl text-muted opacity-20'>
+        {/* Mobile: sits at bottom but never overlaps content */}
+        <div className='block md:hidden mt-auto pt-16 text-4xl text-muted opacity-20 font-stix-two-text'>
           Morgan Selbekk
-        </div> */}
+        </div>
       </body>
       <Script src='https://scripts.simpleanalyticscdn.com/latest.js' />
     </html>

@@ -1,5 +1,6 @@
 import Currently from './components/currently';
 import Intro from './components/intro';
+import Line from './components/line';
 import Links from './components/links';
 import Projects from './components/projects';
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Intro />
       <Currently />
       <Projects />
+      <Line />
       <Links />
     </main>
   );

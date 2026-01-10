@@ -21,11 +21,11 @@ export default function Intro() {
           width={100}
           height={100}
         />
-        <h1 className='font-stix-two-text text-xl md:text-2xl font-medium'>
+        <h1 className='font-stix-two-text text-xl md:text-xl font-semibold'>
           Morgan Selbekk{' '}
           {/* <span className='text-muted'>- Designer &amp; Developer</span> */}
         </h1>
-        <p className='font-stix-two-text text-sm md:text-[17px]'>
+        <p className='font-stix-two-text text-sm md:text-[15px] font-medium'>
           I&apos;m a Designer & Developer living in San Fransisco. I have 10
           years agency experience across Design, Development & Project
           Management. I currently run{' '}
