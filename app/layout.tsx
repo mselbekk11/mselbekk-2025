@@ -95,7 +95,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' className='dark'>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${stixTwoText.variable} antialiased min-h-screen max-w-screen p-4 md:p-6 flex flex-col`}
       >
