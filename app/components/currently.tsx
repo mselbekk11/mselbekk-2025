@@ -7,8 +7,8 @@ const currently = [
   {
     title: 'Selbekk Labs',
     subtitle: 'Software Agency',
-    id: 'selbekk-studio',
-    link: 'https://selbekk.studio',
+    id: 'selbekk-labs',
+    link: 'https://www.selbekk.dev/',
   },
 ];
 

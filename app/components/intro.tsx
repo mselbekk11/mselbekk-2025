@@ -30,7 +30,7 @@ export default function Intro() {
           years agency experience across Design, Development & Project
           Management. I currently run{' '}
           <span className='text-muted cursor-pointer hover:underline'>
-            <Link href='https://www.selbekk.studio/' target='_blank'>
+            <Link href='https://www.selbekk.dev/' target='_blank'>
               Selbekk Labs
             </Link>
           </span>{' '}
