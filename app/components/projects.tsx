@@ -24,9 +24,9 @@ const projects = [
   },
   {
     title: 'Growth',
-    subtitle: 'Coming Soon',
+    subtitle: 'Mentorship Application',
     id: 'growth',
-    link: '',
+    link: 'https://growththecoachesmentorship.com/',
   },
 ];
 
