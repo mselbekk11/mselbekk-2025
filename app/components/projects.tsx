@@ -11,6 +11,18 @@ const projects = [
     link: 'https://roaminternational.com',
   },
   {
+    title: 'Growth',
+    subtitle: 'Mentorship Application',
+    id: 'growth',
+    link: 'https://growththecoachesmentorship.com/',
+  },
+  {
+    title: 'Floot',
+    subtitle: 'AI Application',
+    id: 'floot',
+    link: 'https://floot.com/',
+  },
+  {
     title: 'Trizzy.ai',
     subtitle: 'AI Application',
     id: 'trizzy',
@@ -21,12 +33,6 @@ const projects = [
     subtitle: 'AI Application',
     id: 'picai',
     link: 'https://www.picai.so/',
-  },
-  {
-    title: 'Growth',
-    subtitle: 'Mentorship Application',
-    id: 'growth',
-    link: 'https://growththecoachesmentorship.com/',
   },
 ];
 
