@@ -108,6 +108,11 @@ export default function RootLayout({
         <div className='block md:hidden mt-auto pt-16 text-4xl text-muted opacity-20 font-stix-two-text'>
           Morgan Selbekk
         </div>
+        <script
+          src='http://localhost:3000/widget/embed.js'
+          data-chatbot-id='jh70ve6080azscxgq0003d6tvx843mgw'
+          async
+        ></script>
       </body>
       <Script src='https://scripts.simpleanalyticscdn.com/latest.js' />
     </html>
