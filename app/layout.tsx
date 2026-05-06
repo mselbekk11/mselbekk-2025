@@ -109,7 +109,7 @@ export default function RootLayout({
           Morgan Selbekk
         </div>
         <script
-          src='http://localhost:3000/widget/embed.js'
+          src='https://www.sensai.co/widget/embed.js'
           data-chatbot-id='jh70ve6080azscxgq0003d6tvx843mgw'
           async
         ></script>
