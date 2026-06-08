@@ -6,7 +6,7 @@ import { motion } from 'motion/react';
 const projects = [
   {
     title: 'Sensai',
-    subtitle: 'AI sales & support agent',
+    subtitle: 'AI Sales & Support Agent',
     id: 'sensai',
     link: 'https://www.sensai.co/',
   },
