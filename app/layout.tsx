@@ -114,6 +114,11 @@ export default function RootLayout({
           async
         ></script> */}
       </body>
+      <Script
+        async
+        src='https://analytics-jet-zeta.vercel.app/script.js'
+        data-site='mselbekk.com'
+      ></Script>
       <Script src='https://scripts.simpleanalyticscdn.com/latest.js' />
     </html>
   );
