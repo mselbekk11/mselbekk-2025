@@ -120,6 +120,12 @@ export default function RootLayout({
         data-site='mselbekk.com'
       ></Script>
       <Script src='https://scripts.simpleanalyticscdn.com/latest.js' />
+      <script
+        defer
+        data-site='vyexqonh'
+        data-domain='www.mselbekk.com'
+        src='https://piqo.app/piqo.js'
+      ></script>
     </html>
   );
 }
